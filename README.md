@@ -29,7 +29,10 @@ healthcare_records_manager/
 │   ├── addadmissions.html
 │   ├── addbilling.html
 │   └── visualizations.html
-├── static/                  
+├── database/
+    ├── Table_Create.sql
+    ├── Data_Insert.sql
+    └── healthcare.db                
 ├── healthcare_dataset.csv   
 ├── README.md                
 └── requirements.txt         # Dependencies
@@ -64,11 +67,11 @@ python app.py
 
 4. **Visit in Browser:**
 ```
-http://localhost:5000/
+http://127.0.0.1:5001
 ```
 
 ##  Video Demo
-A recorded walkthrough of the application is available here: *(Add your video demo URL once ready)*
+A recorded walkthrough of the application is available here: (https://www.loom.com/share/036da006097846ae9a55ae77aba3a31b?sid=faa1cbb2-7e57-43a9-8c8e-903cd2b946d9)
 
 ##  Screenshots
 Screenshots of the app’s key pages including dashboard, management tables, update forms, and visualizations are available in the project documentation.
