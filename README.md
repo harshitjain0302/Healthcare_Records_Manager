@@ -24,10 +24,14 @@ healthcare_records_manager/
 │   ├── doctors.html
 │   ├── admissions.html
 │   ├── billing.html
+│   ├── addpatients.html
+│   ├── adddoctors.html
+│   ├── addadmissions.html
+│   ├── addbilling.html
 │   └── visualizations.html
-├── static/                  # (Optional) CSS or JS static files
-├── healthcare_dataset.csv   # Initial data (if applicable)
-├── README.md                # This file
+├── static/                  
+├── healthcare_dataset.csv   
+├── README.md                
 └── requirements.txt         # Dependencies
 ```
 
