@@ -65,14 +65,13 @@ pip install -r requirements.txt
 python app.py
 ```
 
-4. **Visit in Browser:**
+4. **Local Browser:**
 ```
 http://127.0.0.1:5001
 ```
 
 ##  Video Demo
-A recorded walkthrough of the application is available here: (https://www.loom.com/share/036da006097846ae9a55ae77aba3a31b?sid=faa1cbb2-7e57-43a9-8c8e-903cd2b946d9)
-
+A recorded walkthrough of the application is available here: (https://indiana-my.sharepoint.com/:v:/g/personal/srivaar_iu_edu/EUB0yXd75T5BhFPH3ALYakUB8DsRVPIU0F0keMpAH7sb-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cXawTh)
 ##  Screenshots
 Screenshots of the app’s key pages including dashboard, management tables, update forms, and visualizations are available in the project documentation.
 
