@@ -67,7 +67,7 @@ python app.py
 
 4. **Browser URL:**
 ```
-(https://healthcare-records-manager.onrender.com/)
+https://healthcare-records-manager.onrender.com/
 ```
 
 ##  Video Demo
