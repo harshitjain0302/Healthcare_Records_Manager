@@ -65,9 +65,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-4. **Local Browser:**
+4. **Browser URL:**
 ```
-http://127.0.0.1:5001
+(https://healthcare-records-manager.onrender.com/)
 ```
 
 ##  Video Demo
