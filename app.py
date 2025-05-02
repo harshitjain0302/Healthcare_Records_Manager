@@ -5,7 +5,8 @@ import os
 app = Flask(__name__)
 
 def get_db_connection():
-    db_path = os.path.join(os.path.dirname(__file__), 'healthcare.db')
+    base_dir = os.path.abspath(os.path.dirname(__file__))
+    db_path = os.path.join(base_dir, "healthcare.db")
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     return conn
@@ -368,5 +369,6 @@ def visualizations():
                            top_doctors=top_doctors)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    port = int(os.environ.get('PORT', 5001))
+    app.run(debug=True, port=port)
    
