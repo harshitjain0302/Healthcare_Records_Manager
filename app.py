@@ -5,8 +5,9 @@ import os
 app = Flask(__name__)
 
 def get_db_connection():
-    conn = sqlite3.connect('healthcare.db')
-    conn.row_factory = sqlite3.Row  # Optional: for dict-like row access
+    db_path = os.path.join(os.path.dirname(__file__), 'healthcare.db')
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
     return conn
 
 @app.route('/', methods=['GET', 'POST'])
